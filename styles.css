@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+}
+
+.right, .left {
+    width: 210px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.right {
+    margin-left: -10px;
+}
+
+.left {
+    margin-right: -10px;
+}
+
+.bottom {
+    width: 221px;
+    height: 221px;
+    background-color: red;
+    transform: rotate(45deg);
+    margin-top: -135px;
+}
